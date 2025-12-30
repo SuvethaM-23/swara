@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <nav class="navbar d-flex justify-content-between" id="nav-product">
+        <div class="ps-5">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAElklEQVR4nO1YW28bRRTeB1puKhJ/AAmBuEq8c33jBcE/QFwkHlARvFQ8ISgvFW9IkDp17FzaBEMJDThp5ZDYM6YiraAkvjvZm3dnHO+MUVIiVYVKlZtBZ+wNrbKOvPUlK5EjHWm15+x3vm/OmVl7FeXADuzAujY9sfkQxXySIr5FEN+giJ9bT9Wfc+NwDfdasS2C+Zm1pY0jSlCMIhalmIs7HPEbJF1/Dxyud8UxH1GCYgTzqx4EBT72h0h9dGXXfXCC+aYSFCOYX/EiOfMGlu4tgP2uBMUoZm97kcyFNeleMYrYW0pQzE7b91HErnkS9SZ/DZ5RgmQEs9lOBRDE4krQrIrZ0U4FQK4SNFOn6UvF06boxNWz5EUlaDZ/9NdnR5+Mi0489eFvzyhBs8IXhYenX02KThxylSBZabp0GDZmx6cQ5gk9od+rBIU8Rey8D/Lui2x2eVkc2m/+CkE87Jf8bT8nhveXPOYf3C35HU+x9/eHPPrzBYrYza4FIHbTTtafHyh5vsAfJIjpXZPHrrPKQP8fUMRGe0eeD/b/AUnz1/tAXoDbiL3WV/LVy9X7KWJWvwRQzCp9/ZVKEf+8f+S5dILZZ30hX0k6jxDM/+67AMT/IRf5oz0XQDGL9Zs8dR3xqZ6SryVrTxDMGoMSQDBr2GnnqZ4JIIh9N7DVxz3ugv0Le5pgdmvQAghmDeh81wIoZl8PfPWxK4J/2YNzn/+1XwIo4lvOnPNAz7/3DLQLafZmNwJQW+AkF+aFWtcEzQs1idW+Cyx5V+Q34htHyjGrQRHbBWolHJGP6CIfMaBA2+LWvCN9jxERgAFYgOlBXqzGrAZw8S1gbZp8nBlSRWHMFOb5qiApJsmsfmuLzElVQAx89RvLu0OLrkhdkKS3yNWYtYMDmIANNaCWObcuiqOGjK2dtY/5FlCZpbF8WPuvwG2eHVJFedIS2ZYQ+NZjJWqCpLiw5x2hnqMiF9Z38uFa+4HIGORAbnHCbGKFWlgeddxnzTnq/51AEV+ClVO/J6IQNSTZ3ClNlCcrojLfnH1jbl1kQ94iZffGTent4tlhVWI0x7ImsaEG1CpEDFkbOBDML/oWQJBT32vzVRJNEdYCk63PRfSWSF2UzpjCiFd3cuG6dBrItXIienNcFpqjBSOz93HKmG8BxQnjlhcwrEh5CsZHE9bPe2zQVm67+XfdTjI5JvoM9cZAXJSnKg1f5NPH0/dAi/MA/FNV2AuOsBcdoc9U75xt2KCL3iJgJNxN7HZrF7kUE8Wx5kaVe2nMEEZ8XYoCXKgNz68MrW37ElA6XjqcGVJX281uLqKtZELa9eYca0L/sSrPcigM5zqcLu4GlzlwwsQsGZPkUkzo8arIjbQWI6Rdl5ht6mVCasnnACnK8sjyoVxU/TQf0TezIXU7M6xu5yO6U5ow34H4yknj8WxYq7ctCpt41FjKR/VLe+VkT2n14lf6Y3LhxvR3C1HDgVqZkKy3WYwanwAX3wI6FVmaME/kI8ZVKTKkbufC2o3ShHmpPF552c0rj1qvFMfNyxCDHMiFZwpj5om+kTuwA/uf2L8Da72VX8CJdQAAAABJRU5ErkJggg=="
+                alt="wedding-dress">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHBUlEQVR4nO1WSU8bZximPeR/ROoxvyCn/Ib22E1pIrVVG5SGlrAVx4DB4AUDXsBgGy943wBjwNiA2SFsJkAgadRKLWp7aBVySHMhT/V9s3g2EFlGjSo+aS72vJ73WT0VFRfn4rwbJxffWvy4pufk8zobbjb04mtNPyq1blS1eHG3NYCG9hC0xihaTYmX8+ndhYp37ewWfsbS2H7per39n89qrbjR4MBXjU7c0rpwp9mL6tYAtIboi/WJRzvk3op37ZQKT7BTeIKN3OGvt7Tuvz+tteKLege+bHTi23suaIzhp5u5w1/IPeTe/2RJjUbzvs6SuNJkjN7UdITNDfrQeE3b0F61zv9sq/AY5Nou/ISt/KOnDR2ho09qenC93o4Wc/yPzanHx/Q79j6NIfysQR/cq20byt7VBUxVOt+NKp3vCnnGW10awHvNhti1On0w0N6ZOm7rTKLFFCd2QGNHGPX6IGrahrBeOKTXRuERc+UPXlocI79392X/3MgfnnCfc/fx8+0h1LYNobrVT/Nyu9lzXKl1B+62+a+RZ7/R8jZb5qqxK10iC5MHGbuG0W5JodWcQLMxhnuGCH5sD6NOH8Rq/iFW8wdYKzDX/MQu9D1JBLxFLE7u85+Te8i9zHyUn69pDeAHnQ93Wrw0/CT4WkOkpO9KXX2t5Qf6pj6y2rMnZGkOgLl7BIauNPSdSehMcTQZY2jsiNDvlvJ7WM7v0ysaXkCVzkebyGYfh80xjuH4Cv89uZeqaIxB0xGhDcWp8H2LTwAgig5L+qTbNv7hKy3vcxYv9zunnlvtWQgBdPaMsiqk0WpOotkU51mczz/A9EQJ5t5RfNc8SJf45t4AHI4JWG1ZdFkzcHsKmJnYpvdSFU3sPG9FooJfCgA9tuxzp3Py8rkBBFyzPQPOPKQAyBLm7lEYuoah70xBZ05QFQiLkdgCCWbZy00eWqG9vZNUhR7bGCw9GXTZMkgmlkGypDOV54kKxEpkcQUAcPXlu18BQPGhEgDyQ2QJU/cI/eE2s0KgOS8TFZo8cPbmGBXsRIUxgYopXsXyfIgWghKAAefU3vkBuIsvlAAQJruFS3QygaYsGsRermrx4XbzIPr7ptDXOwk7VaFMAJOlFK+isBAUFXDmX5wbwJC7CCUAdscEs4RVoAJXq0Yxi8TLpFFczjycfYwKMgIsAhXpPEPCKQDwxgA4P4uXENZquRbJAqRRPP0FIj+jAksAk6URPkvSedUAcExyrSKuVXEgqZV0fgwOTNOH9/fl0OtgCbAxBJgkKnLzqgHgmeRbhVlCVqsdZRV8rhmBClICRsUqsvOqARD6mWuV02qVU8HvnoV3YBrufqLClKxWTawKQhVVAyBkkg+0sFYV3pPIb3EqSAnoVqhVMq8aAIbJAsMk52eFWi2/J4UQ8swhQFWY4WdFtWoVZolRUTUAftcsH0r+D+rMWo0gPDiPIU9RPEsDLa/VDnZeNQABdxFeV5lJvlbZVlEKZNS7wKrAzEpr1apQq6oBCHrmZEwq12qKD2TMt4jI4LxsVkqARVCrqgGgdhCEUl6r8vekhH+JUUE2K7ZhFyGAVVE1AGU7sNXI/kExrTKuWKsp/zLiRAXvAqMCX6tlG9ol70mqASB24EIpZPKsWk0HVqgKMS87y6ogs6G9HGjVAJTtIK/G096TRoZWkQoQFZaoCtJaHeBqVfCiqBoAZhHlUMr8TAJtSWM0uIbhoRUk/cu8gkHFWp3kCVANAL+IxA6eM2p1LHSfVWEFCZ9QQWkZ5PhaVQ3ASHCNLsLZgQul3M9lFcbD68hQFVYpeCUF3ZL3JNUAZIL3+UX4QJ9aq0ygJyIbVAViJS7QRAX5bJ63oWoAsqF12SKiWqVMiv2ci2yyKnBWEtdqQKFW1QGgD/42EWbYpIuI7MAxOS2r1anoFiYjGyLwSWGteuS1Wql1H711AHXtwbbJyCayYQUV2FAq1Wohto1cdBMi8GytRpVq1TmFSq1L//YAWIaPmo1xvUYTvUTY5DytZAel96SZeAn56DY48Jlz1KpGE71UrfPrtYbo0WsBOO1QNnlPl5tFqVa5P6jZxA6mYyVqJaEKSgr62NkKtQ7DptzTiTNqdS75ADPxHeRF4O8r16qbCbRqAIqJHRRiJeSiWxgPb5yrVueTuygmHmA6zqogBe+X16pqAOaSuzyb1NPnqNXF1B7I3GycgOdU2EBGIUchdlY1AAupPTGbsmYp1yoXyuX0PoRzjAXF4JMCBQOe4lPVACyl96klxGyygRaFcp6v1ZXhh+DnqAVJrUrBrwhqtRhTDQBZRqaCrFYFgXbNYm3kAMtpZm4uQQJdKlswLGkz38JfUd/SB6oBWB05UGBT3izCQK+PHmJ1WDwnrdXh4NpxKrAcU3X5i3Nx/qfnX6EhVM9bVOqdAAAAAElFTkSuQmCC"
+                alt="shirt">
+        </div>
+        <div class="input-group inputParent">
+            <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="search" placeholder="Search for products" class="form-control Product-input" data-bs-toggle="offcanvas" data-bs-target="#search-bar">
+        </div>
+        <!-- offcanvas -->
+        <div class="offcanvas offcanvas-top" id="search-bar" style="height: 700px">
+            <div class="offcanvas-body offbody">
+                <h2>Search here...</h2>
+                <form action="" class="input-group" onsubmit="searchFun(event)">
+                    <input type="search" class="form-control w-75" id="search-input" placeholder="search" />
+                    <button class="btn buttonoff">Submit</button>
+                </form>
+                <br/>
+                <div class="row" id="search-fetch"></div>
+            </div>
+        </div>
+        <!-- offcanvas end -->
+        <div class=" d-flex justify-content-between pe-5">
+            <div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+UlEQVR4nO2ZzSsEYRzHh1LKQS7IWyg3Lg6SHNxFbku4ScprDlyd5eIoLzcOyoXExc0/oKgtR5GLYneFWB899ahpPTtrZp+ZfZ6az3Gafvv9PM8zzz6/GceJiYmJMR6gBZgHzoEkkAHegHvgDFgBWn3UawNWZb0HWSsja4trc0CzjuBNwC7wRWHEPftePywH4sBHvR2gMWj4ESCNf1JAQlFvrIh6w37DLwJZgvMNLLnqLctrQckCC35GvpjwbokEMFpk+F+yBWdCrvkg0+w1/SnN9Rq8BPYwn22vHeI/u0Op+RIrRSWwgD3MqgTEH5ItnKoEbrGHpEpA5+4TNmmVwAv28KwSuMEerlUCh9jDoUpgHHsYVwlUW/IgvwI1fwSkxDrms6EMLwVqNR++dJMB6vMKSIkZzGXeM7wUKAMuMI9LoLyggJSoA+4wh0ffTT7QI98WlJoPoN9XeJfEEPBZwvBZ0ZIGCu+SmNDUI/vlG5guKnxOo/8Wcdc1pSW8S2JAnAIj2usHtYZ3SXSGvDs9AX2hhHdJtAJXIYRPAh2hhndJVAKbGsMficNkJOFzRCblmg3Ku3iNGXnwHIku0SEFXDLdjgkAFcDaP1+Mif19C6hyTAPolSObj9vAx4KIZ2Mxp7v7kA+9eaNe4DPSMXACtOe9MSYmJsaxmR9CjSv9wcpIwQAAAABJRU5ErkJggg=="
+                    alt=" filled-like "><span id="likeCount" class="fs-3 ">0</span>
+            </div>
+            <div>
+                <img src="data:image/png;base64,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"
+                    alt=" shopping-cart-emoji "><span id="addToCart" class="fs-3 ">0</span>
+            </div>
+        </div>
+    </nav>
+    <h1 id="h1" class="mt-4">LIFE IS <img src="/assets/images/nimg48_1.png"> FOR FUN</h1>
+    <div class="container mt-4">
+        <div class="row" id="productList"></div>
+    </div>
+</body>
+
+<script src="./assets/script/product.js "></script>
+
+</html>
